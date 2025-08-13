@@ -15,7 +15,7 @@ This model achieved the highest AUC in the thesis experiments and comes with a c
 ---
 
 ## ⚙️ Installation
-1. Install *Install **Python 3.9–3.11** (recommended: 3.11)**
+1. Install **Python 3.9–3.11** (recommended: 3.11)
 2. Install dependencies:
    ```powershell
    pip install -r requirements.txt
