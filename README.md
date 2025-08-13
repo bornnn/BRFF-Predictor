@@ -8,8 +8,8 @@ This model achieved the highest AUC in the thesis experiments and comes with a c
 ## 📦 Contents
 - `md.joblib` — The trained best model (**includes feature list and fitted StandardScaler**)
 - `predict.py` — Inference script (automatically merges two input files, selects features, standardizes, and predicts)
-- `example_tool1.csv` — Example FreeSurfer features file
-- `example_tool2.csv` — Example FastSurfer features file
+- `Testing_freesurfer.csv` — Example FreeSurfer features file
+- `Testing_fastsurfer.csv` — Example FastSurfer features file
 - `requirements.txt` — Required Python packages and versions
 
 ---
