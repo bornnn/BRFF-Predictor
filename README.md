@@ -51,7 +51,7 @@ python .\predict.py `
   --id-col ID
 ```
 
-## 🚀 If you run on windows  
+## 🚀 If the multi-line format causes issues, please try this single-line format
 
 ```
 python predict.py --model ".\md.joblib" --freesurfer ".\Testing_freesurfer.csv" --fastsurfer ".\Testing_fastsurfer.csv" --output ".\result.csv" --proba --id-col ID
