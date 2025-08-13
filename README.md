@@ -51,6 +51,13 @@ python .\predict.py `
   --id-col ID
 ```
 
+## 🚀 If you run on windows  
+
+```
+python predict.py --model ".\md.joblib" --freesurfer ".\Testing_freesurfer.csv" --fastsurfer ".\Testing_fastsurfer.csv" --output ".\result.csv" --proba --id-col ID
+
+```
+
 ---
 
 ## 🔧 Parameters
