@@ -55,7 +55,6 @@ python .\predict.py `
 
 ```
 python predict.py --model ".\md.joblib" --freesurfer ".\Testing_freesurfer.csv" --fastsurfer ".\Testing_fastsurfer.csv" --output ".\result.csv" --proba --id-col ID
-
 ```
 
 ---
