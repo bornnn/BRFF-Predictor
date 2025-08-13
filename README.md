@@ -20,7 +20,10 @@ This model achieved the highest AUC in the thesis experiments and comes with a c
    ```powershell
    pip install -r requirements.txt
    ```
-
+   If pip is not recognized, use:
+   ```powershell
+   python -m pip install -r requirements.txt
+   ```
 ---
 
 ## 📂 Input File Format
