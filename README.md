@@ -44,8 +44,8 @@ The two files are **inner merged** on the `ID` column.
 ```powershell
 python .\predict.py `
   --model ".\md.joblib" `
-  --freesurfer ".\tool1-fullfeature.csv" `
-  --fastsurfer ".\Tool2-fullfeature_final.csv" `
+  --freesurfer ".\Testing_freesurfer.csv" `
+  --fastsurfer ".\Testing_fastsurfer.csv" `
   --output ".\result.csv" `
   --proba `
   --id-col ID
