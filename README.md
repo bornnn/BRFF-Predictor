@@ -25,12 +25,12 @@ This model achieved the highest AUC in the thesis experiments and comes with a c
 
 ## 📂 Input File Format
 
-### 1. FreeSurfer features file (`tool1-fullfeature.csv`)
+### 1. FreeSurfer features file 
 - Contains all FreeSurfer numeric features
 - Must have an `ID` column (subject ID)
 - The script automatically removes the column `Sum` if present
 
-### 2. FastSurfer features file (`Tool2-fullfeature_final.csv`)
+### 2. FastSurfer features file 
 - Contains all FastSurfer numeric features
 - Must have the same `ID` column as the FreeSurfer file
 - The script automatically removes columns `Sum` and `label_y` if present
@@ -39,9 +39,9 @@ The two files are **inner merged** on the `ID` column.
 
 ---
 
-## 🚀 How to Run (Windows PowerShell)
+## 🚀 How to Run 
 
-```powershell
+```
 python .\predict.py `
   --model ".\md.joblib" `
   --freesurfer ".\Testing_freesurfer.csv" `
