@@ -36,7 +36,6 @@ This model achieved the highest AUC in the thesis experiments and comes with a c
 ### 2. FastSurfer features file 
 - Contains all FastSurfer numeric features
 - Must have the same `ID` column as the FreeSurfer file
-- The script automatically removes columns `Sum` and `label_y` if present
 
 The two files are **inner merged** on the `ID` column.
 
